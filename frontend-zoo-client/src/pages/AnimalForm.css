@@ -1,0 +1,56 @@
+/* src/pages/AnimalForm.css */
+
+.an-form-container {
+  padding: 1.5rem;
+  max-width: 28rem;
+  margin: 0 auto;
+}
+
+.an-form-title {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.an-form-error {
+  color: #dc2626;
+  margin-bottom: 0.5rem;
+}
+
+.an-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.an-form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.an-form-label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.an-form-input {
+  padding: 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+}
+
+.an-form-button {
+  padding: 0.5rem 1rem;
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.an-form-button:hover {
+  background-color: #1d4ed8;
+}

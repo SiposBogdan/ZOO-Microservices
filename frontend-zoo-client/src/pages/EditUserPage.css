@@ -1,0 +1,89 @@
+/* src/pages/EditUserPage.css */
+
+.eu-form-container {
+padding: 1.5rem;
+max-width: 28rem;
+margin: 0 auto;
+}
+
+.eu-form-title {
+font-size: 1.25rem;
+font-weight: 600;
+margin-bottom: 1rem;
+}
+
+.eu-form-hint {
+font-size: 0.75rem;
+color: #6b7280;
+margin-left: 0.5rem;
+}
+
+.eu-form-error {
+color: #dc2626;
+margin-bottom: 0.75rem;
+}
+
+.eu-loading {
+padding: 1rem;
+text-align: center;
+}
+
+.eu-form {
+display: flex;
+flex-direction: column;
+gap: 1rem;
+}
+
+.eu-form-group {
+display: flex;
+flex-direction: column;
+}
+
+.eu-form-label {
+font-size: 0.875rem;
+font-weight: 500;
+margin-bottom: 0.25rem;
+}
+
+.eu-form-input {
+padding: 0.5rem;
+border: 1px solid #d1d5db;
+border-radius: 0.25rem;
+font-size: 1rem;
+}
+
+.eu-form-actions {
+display: flex;
+gap: 0.5rem;
+}
+
+.eu-button {
+padding: 0.5rem 1rem;
+background-color: #2563eb;
+color: #ffffff;
+border: none;
+border-radius: 0.25rem;
+font-size: 1rem;
+cursor: pointer;
+transition: background-color 0.2s ease;
+}
+
+.eu-button:hover {
+background-color: #1d4ed8;
+}
+
+.eu-cancel-button {
+padding: 0.5rem 1rem;
+background-color: #6b7280;
+color: #ffffff;
+border: none;
+border-radius: 0.25rem;
+font-size: 1rem;
+cursor: pointer;
+transition: background-color 0.2s ease;
+}
+
+.eu-cancel-button:hover {
+background-color: #4b5563;
+}
+

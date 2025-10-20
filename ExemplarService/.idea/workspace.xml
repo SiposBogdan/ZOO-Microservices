@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bb3c8156-76f8-4bf4-a518-953e567f057d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exemplarservice/ExemplarServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exemplarservice/config/RestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exemplarservice/controller/ExemplarController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exemplarservice/domain/Exemplar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exemplarservice/domain/dto/AnimalDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exemplarservice/domain/dto/ExemplarDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exemplarservice/domain/dto/ExemplarPhotoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exemplarservice/facade/ExemplarFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exemplarservice/repository/ExemplarRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exemplarservice/service/AnimalApiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exemplarservice/service/ExemplarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/exemplarservice/ExemplarServiceApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2xeE8VOdwsHgXsLv7DQBzAZiQpp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/proiectare software/Project implementation/UserServer",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ExemplarServiceApplication (1)">
+    <configuration name="ExemplarServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="ExemplarService.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="exemplarservice.ExemplarServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exemplarservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExemplarServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ExemplarService.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="server.ExemplarServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ExemplarServiceApplication (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb3c8156-76f8-4bf4-a518-953e567f057d" name="Changes" comment="" />
+      <created>1748289987797</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748289987797</updated>
+      <workItem from="1748289989175" duration="1904000" />
+      <workItem from="1748330132209" duration="42786000" />
+      <workItem from="1748541063207" duration="7941000" />
+      <workItem from="1748590970147" duration="10693000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

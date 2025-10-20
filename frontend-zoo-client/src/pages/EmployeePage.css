@@ -1,0 +1,116 @@
+/* src/pages/EmployeePage.css */
+
+/* Page container */
+.employee-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Title */
+.employee-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2D3748;
+}
+
+/* Tab buttons */
+.tab-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.tab-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.tab-button.active {
+  background-color: #3182CE;
+  color: #FFFFFF;
+}
+
+.tab-button.inactive {
+  background-color: #E2E8F0;
+  color: #4A5568;
+}
+
+/* Add new button */
+.add-new {
+  align-self: flex-start;
+  padding: 0.5rem 1rem;
+  background-color: #38A169;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.add-new:hover {
+  background-color: #2F855A;
+}
+
+/* Table wrapper */
+.employee-table-wrapper {
+  overflow-x: auto;
+  border: 1px solid #E2E8F0;
+  border-radius: 0.5rem;
+}
+
+/* Table styles */
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.employee-table th,
+.employee-table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #E2E8F0;
+  text-align: left;
+}
+
+.employee-table thead th {
+  background-color: #EDF2F7;
+  position: sticky;
+  top: 0;
+  text-transform: capitalize;
+}
+
+.employee-table tbody tr:hover {
+  background-color: #F7FAFC;
+}
+
+/* Action links and buttons */
+.actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.actions a,
+.actions button {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0.875rem;
+  cursor: pointer;
+  text-decoration: underline;
+  color: #3182CE;
+}
+
+.actions a.edit {
+  color: #D69E2E;
+}
+
+.actions a.delete,
+.actions button.delete {
+  color: #E53E3E;
+}

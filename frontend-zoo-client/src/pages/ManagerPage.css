@@ -1,0 +1,143 @@
+/* src/pages/ManagerPage.css */
+
+.manager-container {
+  padding: 1.5rem;
+}
+
+.manager-title {
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.chart-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .chart-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.chart-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-title {
+  font-size: 1.125rem; /* text-lg */
+  margin-bottom: 0.5rem;
+}
+
+.averages {
+  margin-bottom: 2rem;
+}
+
+.averages p {
+  margin: 0.25rem 0;
+}
+
+.export-button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s ease;
+}
+
+.export-button:hover {
+  background-color: #1d4ed8;
+}
+
+.management-section {
+  margin-bottom: 2.5rem;
+}
+
+.management-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.add-button {
+  padding: 0.5rem 1rem;
+  background-color: #10b981;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s ease;
+}
+
+.add-button:hover {
+  background-color: #059669;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem; /* text-sm */
+  margin-bottom: 1rem;
+}
+
+.data-table th,
+.data-table td {
+  padding: 0.5rem;
+  border: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+.data-table thead {
+  background-color: #e5e7eb;
+}
+
+.data-table tr:hover {
+  background-color: #f9fafb;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.action-button {
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.edit-button {
+  background-color: #f59e0b;
+}
+
+.edit-button:hover {
+  background-color: #d97706;
+}
+
+.delete-button {
+  background-color: #dc2626;
+}
+
+.delete-button:hover {
+  background-color: #b91c1c;
+}
+
+@media (min-width: 1024px) {
+  .data-table {
+    font-size: 0.875rem;
+  }
+}

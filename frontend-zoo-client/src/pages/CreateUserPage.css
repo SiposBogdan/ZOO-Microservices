@@ -1,0 +1,78 @@
+/* src/pages/CreateUserPage.css */
+
+.cu-form-container {
+padding: 1.5rem;
+max-width: 28rem;
+margin: 0 auto;
+}
+
+.cu-form-title {
+font-size: 1.25rem;
+font-weight: 600;
+margin-bottom: 1rem;
+}
+
+.cu-form-error {
+color: #dc2626;
+margin-bottom: 0.75rem;
+}
+
+.cu-form {
+display: flex;
+flex-direction: column;
+gap: 1rem;
+}
+
+.cu-form-group {
+display: flex;
+flex-direction: column;
+}
+
+.cu-form-label {
+font-size: 0.875rem;
+font-weight: 500;
+margin-bottom: 0.25rem;
+}
+
+.cu-form-input {
+padding: 0.5rem;
+border: 1px solid #d1d5db;
+border-radius: 0.25rem;
+font-size: 1rem;
+}
+
+.cu-form-actions {
+display: flex;
+gap: 0.5rem;
+}
+
+.cu-button {
+padding: 0.5rem 1rem;
+background-color: #2563eb;
+color: #ffffff;
+border: none;
+border-radius: 0.25rem;
+font-size: 1rem;
+cursor: pointer;
+transition: background-color 0.2s ease;
+}
+
+.cu-button:hover {
+background-color: #1d4ed8;
+}
+
+.cu-cancel-button {
+padding: 0.5rem 1rem;
+background-color: #6b7280;
+color: #ffffff;
+border: none;
+border-radius: 0.25rem;
+font-size: 1rem;
+cursor: pointer;
+transition: background-color 0.2s ease;
+}
+
+.cu-cancel-button:hover {
+background-color: #4b5563;
+}
+
