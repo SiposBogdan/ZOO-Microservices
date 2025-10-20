@@ -52,7 +52,6 @@ The system is secured using **JWT authentication**, follows **DDD layering**, an
 - **Data Export** in CSV, JSON, XML, DOCX formats  
 - **Email Notifications** on profile or password changes  
 - **Independent Databases** per microservice  
-- **Docker & Kubernetes Ready**
 
 ---
 
@@ -88,7 +87,7 @@ Each microservice owns its own schema:
 | API Testing | Postman, Newman |
 | Unit Testing | JUnit, Mockito |
 | Documentation | PlantUML |
-| Deployment | Docker, Kubernetes (optional) |
+
 
 ---
 
@@ -111,7 +110,7 @@ Each microservice owns its own schema:
 
 ## 🧰 Development Steps
 
-1. Initialize Spring Boot projects for each service via [Spring Initializr](https://start.spring.io/).  
+1. Initialize Spring Boot projects for each service.  
 2. Define entities and JPA mappings (`User`, `Animal`, `Exemplar`).  
 3. Configure JWT security and CORS policies.  
 4. Implement Controllers for CRUD and Auth endpoints.  
@@ -119,7 +118,7 @@ Each microservice owns its own schema:
 6. Implement DTOs and Builders using Lombok.  
 7. Integrate export strategies (CSV, JSON, XML, DOCX).  
 8. Implement REST Proxy (`AnimalApiService`).  
-9. Test with Postman/Newman.  
+9. Test with Postman.  
 10. Generate UML diagrams (classes, components, sequence).
 
 ---
@@ -145,3 +144,4 @@ Each microservice owns its own schema:
 - Secure, extensible, and production-ready architecture
 
 ---
+
